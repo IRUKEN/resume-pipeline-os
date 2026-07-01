@@ -6,7 +6,7 @@ The core rule is strict: no CV is generated unless the Rust decision engine retu
 
 ## What the MVP Includes
 
-- Python pipeline for raw `.txt` ingestion, normalization, requirement extraction, report writing, and CV HTML rendering.
+- Python pipeline for raw `.txt` ingestion, normalization, requirement extraction, report writing, CV HTML rendering, and dependency-free PDF output.
 - Rust decision engine for typed scoring, hard requirement checks, preference matching, red flag detection, and final `APPLY` or `SKIP`.
 - Sample profile, preferences, experience bank, and job description fixture.
 - JSON and Markdown decision reports.
@@ -51,6 +51,7 @@ Expected output:
 - `data/output/reports/contoso-cloud-platforms-senior-full-stack-platform-engineer_decision.json`
 - `data/output/reports/contoso-cloud-platforms-senior-full-stack-platform-engineer_summary.md`
 - `data/output/cvs/Erni_Tabash_senior-full-stack-platform-engineer_contoso-cloud-platforms.html` only if the decision is `APPLY`
+- `data/output/cvs/Erni_Tabash_senior-full-stack-platform-engineer_contoso-cloud-platforms.pdf` only if the decision is `APPLY`
 
 ## Run the Rust Engine Directly
 

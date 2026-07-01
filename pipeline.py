@@ -7,7 +7,7 @@ from pathlib import Path
 
 from python_pipeline.build_cv_context import build_cv_context
 from python_pipeline.extract_requirements import extract_job
-from python_pipeline.generate_pdf import render_cv_html
+from python_pipeline.generate_pdf import render_cv_html, render_cv_pdf
 from python_pipeline.ingest import read_job_description
 from python_pipeline.normalize import slugify
 from python_pipeline.schemas import require_keys
@@ -37,7 +37,8 @@ def main() -> int:
     analyzed_path = ROOT / "data/jobs/analyzed" / f"{stem}.json"
     decision_path = ROOT / "data/output/reports" / f"{stem}_decision.json"
     summary_path = ROOT / "data/output/reports" / f"{stem}_summary.md"
-    cv_path = ROOT / "data/output/cvs" / f"Erni_Tabash_{slugify(job['role'])}_{slugify(job['company'])}.html"
+    cv_html_path = ROOT / "data/output/cvs" / f"Erni_Tabash_{slugify(job['role'])}_{slugify(job['company'])}.html"
+    cv_pdf_path = ROOT / "data/output/cvs" / f"Erni_Tabash_{slugify(job['role'])}_{slugify(job['company'])}.pdf"
 
     _write_json(normalized_path, job)
     _write_json(analyzed_path, {"job": job, "profile_name": profile["name"]})
@@ -48,11 +49,13 @@ def main() -> int:
 
     if decision["decision"] == "APPLY":
         context = build_cv_context(profile, job, decision)
-        render_cv_html(ROOT / "templates/cv.html", cv_path, context)
+        render_cv_html(ROOT / "templates/cv.html", cv_html_path, context)
+        render_cv_pdf(cv_pdf_path, context)
         print(f"Decision: APPLY")
         print(f"Decision report: {decision_path}")
         print(f"Summary: {summary_path}")
-        print(f"CV HTML: {cv_path}")
+        print(f"CV HTML: {cv_html_path}")
+        print(f"CV PDF: {cv_pdf_path}")
     else:
         print(f"Decision: SKIP")
         print(f"Decision report: {decision_path}")
