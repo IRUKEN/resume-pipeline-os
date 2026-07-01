@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+rust_engine/target/
+
+data/output/cvs/*
+!data/output/cvs/.gitkeep
+data/output/reports/*
+!data/output/reports/.gitkeep
+data/jobs/normalized/*
+!data/jobs/normalized/.gitkeep
+data/jobs/analyzed/*
+!data/jobs/analyzed/.gitkeep

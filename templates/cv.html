@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ name }} - {{ role }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; color: #111827; margin: 40px; line-height: 1.45; }
+    h1 { font-size: 28px; margin: 0 0 6px; }
+    h2 { font-size: 16px; margin-top: 24px; border-bottom: 1px solid #d1d5db; padding-bottom: 4px; }
+    .meta { color: #4b5563; margin-bottom: 20px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h1>{{ name }}</h1>
+  <div class="meta">{{ headline }} | {{ location }}</div>
+
+  <h2>Target Role</h2>
+  <p>{{ role }} at {{ company }}</p>
+
+  <h2>Matched Strengths</h2>
+  <ul>
+    {{ matched_strengths }}
+  </ul>
+
+  <h2>Selected Experience</h2>
+  <ul>
+    {{ experience }}
+  </ul>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "company": "Hanson Consulting Group / Microsoft Xbox",
+      "themes": ["gaming", "platform", "cloud", "frontend", "backend"],
+      "evidence": [
+        "Game Hosting UX work with React and Microsoft ecosystem workflows.",
+        "Backend and platform collaboration involving .NET 8, Azure DevOps, and Kusto."
+      ]
+    },
+    {
+      "company": "CINDE / Future Up",
+      "themes": ["full-stack", "education", "enterprise", "data"],
+      "evidence": [
+        "Angular and Spring Boot delivery across product features.",
+        "PostgreSQL, Docker, AWS, CI/CD, Keycloak, Strapi, and Tableau integration work."
+      ]
+    }
+  ]
+}

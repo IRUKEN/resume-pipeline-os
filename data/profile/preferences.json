@@ -1,0 +1,30 @@
+{
+  "preferred_roles": [
+    "full-stack",
+    ".net",
+    "react",
+    "angular",
+    "product engineer",
+    "platform engineer",
+    "technical lead",
+    "technical product manager"
+  ],
+  "preferred_work_modes": ["remote", "hybrid costa rica"],
+  "preferred_seniority": ["mid", "senior", "lead"],
+  "preferred_domains": ["product", "platform", "developer experience", "cloud", "gaming", "enterprise software"],
+  "avoid": [
+    "junior",
+    "intern",
+    "unpaid",
+    "commission only",
+    "pure sales",
+    "onsite only",
+    "outside costa rica",
+    "manual qa only",
+    "customer support only"
+  ],
+  "minimum_scores": {
+    "profile_score": 75,
+    "preference_score": 70
+  }
+}

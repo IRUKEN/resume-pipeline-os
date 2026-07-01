@@ -1,0 +1,17 @@
+Company: Contoso Cloud Platforms
+Role: Senior Full-Stack Platform Engineer
+Location: Remote - Costa Rica or LATAM
+
+We are hiring a Senior Full-Stack Platform Engineer to build internal developer tools and customer-facing platform workflows. The role works closely with product managers, designers, and cloud engineering teams.
+
+Requirements:
+- 5+ years of professional software engineering experience.
+- Strong React and TypeScript experience.
+- Backend experience with C#/.NET or Java Spring Boot.
+- Experience building REST APIs and working with SQL databases such as PostgreSQL or SQL Server.
+- Familiarity with Azure DevOps, CI/CD, Docker, and cloud platform workflows.
+- Ability to collaborate on UX execution with product and design partners.
+
+Nice to have:
+- Experience with GraphQL, Kusto, gaming platforms, or enterprise developer tooling.
+- Previous technical leadership or platform ownership.

@@ -1,0 +1,59 @@
+{
+  "name": "Erni Tabash Sequeira",
+  "headline": "Full-stack engineer focused on product, platform, and developer experience",
+  "location": "Costa Rica",
+  "approved_contact": {
+    "email": "available-on-request",
+    "linkedin": "available-on-request",
+    "github": "available-on-request"
+  },
+  "roles": [
+    "Full-Stack Developer",
+    "Product Engineer",
+    "Platform Engineer",
+    ".NET Developer",
+    "React Developer",
+    "Angular Developer",
+    "Technical Lead",
+    "Technical Product Manager"
+  ],
+  "seniority": ["mid", "senior", "lead"],
+  "skills": [
+    "angular",
+    "react",
+    "next.js",
+    "typescript",
+    "javascript",
+    "html",
+    "css",
+    "scss",
+    "ui/ux",
+    "c#",
+    ".net",
+    ".net 8",
+    "java",
+    "spring boot",
+    "node.js",
+    "nestjs",
+    "prisma",
+    "graphql",
+    "sql",
+    "postgresql",
+    "sql server",
+    "api",
+    "rest",
+    "azure devops",
+    "kusto",
+    "docker",
+    "aws",
+    "ci/cd",
+    "keycloak",
+    "strapi",
+    "tableau"
+  ],
+  "experience_highlights": [
+    "Built product and platform workflows in the Microsoft/Xbox ecosystem through Hanson Consulting Group.",
+    "Worked on Game Hosting UX, React, .NET 8, Azure DevOps, Kusto, and cloud platform workflows.",
+    "Delivered full-stack features for CINDE/Future Up using Angular, Spring Boot, Strapi, Keycloak, PostgreSQL, Docker, AWS, CI/CD, and Tableau integrations."
+  ]
+}
